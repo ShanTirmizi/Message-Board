@@ -1,4 +1,18 @@
-# Live Site: https://shan-message-board.netlify.app/
+# Message Board
+
+By [Shan Tirmizi](mailto:tirmizishahnawaz@gmail.com)
+
+Live Site: https://shan-message-board.netlify.app/
+
+## Instructions
+
+1. Navigate to [repo](https://github.com/ShanTirmizi/Message-Board)
+2. Clone locally using
+   `git clone git@github.com:ShanTirmizi/Message-Board.git`
+3. Install dependencies using `npm install`
+4. Start your server using `npm start`
+5. Navigate to app in [browser](http://localhost:3000)
+6. Or alternatively just go on https://shan-message-board.netlify.app/
 
 # Getting Started with Create React App
 
