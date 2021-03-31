@@ -7,7 +7,8 @@ const Comment = ({data}) => {
       {
         data.map(da => {
           return (
-            <li key={da.id}> <span className='comment__username'>{da.user.name}</span>
+            <li key={da.id}>
+              <p className='comment__username'>{da.user.name}</p>
               <p className='comment__comment'>{da.comment}</p>
               {da.replies && <Comment data={da.replies} />}
             </li>
