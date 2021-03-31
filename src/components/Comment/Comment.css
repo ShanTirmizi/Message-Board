@@ -1,0 +1,15 @@
+li {
+    list-style-type: none;
+    list-style-position: inside;
+    border-left: solid 2px black;
+    margin: 5px;
+}
+
+.comment__username {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.comment__comment {
+    margin: 15px;
+}
