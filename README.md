@@ -28,4 +28,4 @@ to generate the scaffolding for this app.
 
 I fetched the data from the API using an async function then stored it within a useState hook.
 After that, I created a comment component and fed it the data from the hook.
-In the comment component, I created a `ul` tag. Inside that `ul` tag I created a loop that would render all comments in a `li` tag and check if a comment has any replies. If the comment has replies it would render another comment component and give it the data of replies. The cycle will repeat until the replies array is empty.
+In the comment component, I created a ul tag. Inside that ul tag I created a loop that would render all comments in a li tag and check if a comment has any replies. If the comment has replies it would render another comment component and give it the data of replies. The cycle will repeat until the replies array is empty.
